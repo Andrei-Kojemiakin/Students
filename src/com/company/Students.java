@@ -9,7 +9,7 @@ public class Students {
     double AvReitengM;
     double AvReitengE;
     double AvReitengL;
-    double AvReiteng;
+    double AvReiteng=1.0d;
 }
    class StudentsTest{
 
@@ -38,6 +38,9 @@ public class Students {
          GrigoriLeps.AvReitengE=7;
          GrigoriLeps.AvReitengL=8;
 
+        GrigoriLeps.AvReiteng=(GrigoriLeps.AvReitengM+GrigoriLeps.AvReitengE+GrigoriLeps.AvReitengL)/3;
+        System.out.println("Средний бал Грыши " +GrigoriLeps.AvReiteng);
+
         DickCocongton.StudID=13;
         DickCocongton.Fname="Cocongton";
         DickCocongton.Sname="Dick";
@@ -45,6 +48,9 @@ public class Students {
         DickCocongton.AvReitengM=8;
         DickCocongton.AvReitengE=9;
         DickCocongton.AvReitengL=8;
+
+        DickCocongton.AvReiteng=(DickCocongton.AvReitengM+DickCocongton.AvReitengE+DickCocongton.AvReitengL)/3;
+        System.out.println("Средний бал Грыши " +DickCocongton.AvReiteng);
 
         //AvReiteng=(AvReitengM+AvReitengE+AvReitengL)/3;
       //System.out.println(AvReiteng);
