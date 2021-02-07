@@ -3,13 +3,9 @@ package com.company;
 public class Students {
 
     int StudID;
-    String Fname;
-    String Sname;
-    String YearStuding;
-    double AvReitengM;
-    double AvReitengE;
-    double AvReitengL;
-    double AvReiteng=1.0d;
+    String Fname,Sname,YearStuding;
+    float AvReitengM,AvReitengE,AvReitengL;
+    double AvReiteng=1.0;
 }
    class StudentsTest{
 
@@ -50,7 +46,7 @@ public class Students {
         DickCocongton.AvReitengL=8;
 
         DickCocongton.AvReiteng=(DickCocongton.AvReitengM+DickCocongton.AvReitengE+DickCocongton.AvReitengL)/3;
-        System.out.println("Средний бал Грыши " +DickCocongton.AvReiteng);
+        System.out.println("Средний бал Дика " +DickCocongton.AvReiteng);
 
         //AvReiteng=(AvReitengM+AvReitengE+AvReitengL)/3;
       //System.out.println(AvReiteng);
